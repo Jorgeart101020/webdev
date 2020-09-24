@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<html lang="en" dir="ltr">
+  		<head>
+   			<meta charset="utf-8">
+    		<title>Contáctanos</title>
+		    <link rel="stylesheet" href="contacto.css">
+		    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      	<div class="logo">
+			WebDev
+		</div>
+		<input type="checkbox" id="click">
+      	<label for="click" class="menu-btn">
+        	<i class="fas fa-bars"></i>
+      	</label>
+      	<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="acerca.html">Acerca de</a></li>
+			<li><a href="marco.html">Marco Teórico</a></li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="registro.html">Nuestro equipo</a></li>
+			<li><a class="active" href="contacto.html">Contáctanos</a></li>
+		</ul>
+	</nav>
+    <main>
+    	<div class="contact-title" align="center">
+    		<h1>¡Contáctanos!</h1>
+    		<h2>Escribe el servicio que deseas contratar, y un asesor se comunicará contigo.</h2>
+    	</div>
+    	<div class="contact-form" align="center">
+    		<form id="contact-form" method="post" action="contacto.php">
+    			<input type="text" name="name" class="form-control" placeholder="Nombre..." required="">
+    			<br>
+    			<input type="email" name="email" class="form-control" placeholder="Correo electrónico..." required="">
+    			<br>
+    			<textarea name="message" class="form-control" placeholder="Mensaje" rows="4" required=""></textarea>
+    			<br>
+    			<input type="submit" name="" class="form-control submit" value="Enviar">
+    		</form>
+    	</div>
+    </main>
+	<a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+	<footer>
+		<div class="footer-wrapper">
+			<div class="single-footer">
+				<h2>WebDev</h2>
+				<p>
+				Desarrollamos las mejoras páginas web del mercado. 
+				</p>
+			</div>
+			<div class="single-footer">
+				<h2>Redes sociales</h2>
+				<ul>
+					<li><a href="#">Facebook: WebDevFB</a></li>
+					<li><a href="#">Instagram: WebDevIG</a></li>
+					<li><a href="#">Twitter: WebDevTW</a></li>
+					<li><a href="#">YouTube: WebDevYT</a></li>
+				</ul>
+			</div>
+			<div class="single-footer">
+				<h2>Contáctanos</h2>
+				<p>
+					Teléfono: +502 47856324
+					Correo: webdevcontactoinfo@gmail.com
+
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

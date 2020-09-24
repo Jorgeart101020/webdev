@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+	<html lang="en" dir="ltr">
+  		<head>
+   			<meta charset="utf-8">
+    		<title>Acerca de</title>
+		    <link rel="stylesheet" href="acerca.css">
+		    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  	<div id="barba-wrapper">
+  	<div class="barba-container">
+    <nav>
+      	<div class="logo">
+			WebDev
+		</div>
+		<input type="checkbox" id="click">
+      	<label for="click" class="menu-btn">
+        	<i class="fas fa-bars"></i>
+      	</label>
+      	<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a class="active" href="acerca.html">Acerca de</a></li>
+			<li><a href="marco.html">Marco Teórico</a></li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="registro.html">Nuestro equipo</a></li>
+			<li><a href="contacto.html">Contáctanos</a></li>
+		</ul>
+	</nav>
+   	<main>
+   		<section>
+   			<video src="tierra.mp4" autoplay="" muted="" loop="" ></video>
+   		</section>
+   		<section>
+   			<div class="contenido">
+   				<h2>Nuestra visión</h2>
+   				<p class="parrafo">
+   					Brindar el servicio de creación de páginas web de calidad y de acuerdo a las necesidades de nuestros clientes.
+   				</p>
+   				<br><br>
+   				<h2>Nuestra misión</h2>
+   				<p class="parrafo">
+   					Ser una empresa reconocida por nuestro diseño innovador y servicio de calidad.
+   				</p>
+   				<br><br>
+   				<h2>Nuestra historia</h2>
+   				<p class="parrafo">
+   					Nuestro trabajo comenzó hace dos años, cuando nos dimos cuenta de nuestras habilidades para realizar páginas web, y pensamos que podíamos ayudar a los demás a crear sus páginas para sus negocios o para ellos mismos. Comenzamos a trabajar creando páginas para pequeñas empresas, y poco a poco fuimos escalando.
+   				</p>
+   			</div>
+   		</section>
+   		<script type="text/javascript">
+   			let video = document.querySelector('video');
+   			window.addEventListener('scroll', function(){
+   				let value = 1+ window.scrollY/ -600;
+   				video.style.opacity = value;
+   			})
+   		</script>
+   	</main>
+   	<a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+	<footer>
+		<div class="footer-wrapper">
+			<div class="single-footer">
+				<h2>WebDev</h2>
+				<p>
+				Desarrollamos las mejoras páginas web del mercado. 
+				</p>
+			</div>
+			<div class="single-footer">
+				<h2>Redes sociales</h2>
+				<ul>
+					<li><a href="#">Facebook: WebDevFB</a></li>
+					<li><a href="#">Instagram: WebDevIG</a></li>
+					<li><a href="#">Twitter: WebDevTW</a></li>
+					<li><a href="#">YouTube: WebDevYT</a></li>
+				</ul>
+			</div>
+			<div class="single-footer">
+				<h2>Contáctanos</h2>
+				<p>
+					Teléfono: +502 47856324
+					Correo: webdevcontactoinfo@gmail.com
+
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
